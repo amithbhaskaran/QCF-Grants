@@ -115,6 +115,7 @@ section {
 /* Force scrollbar */
 html {
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 /* Align radios and text inputs with their label */
@@ -607,12 +608,12 @@ a.apply-btn {
 .download-forms .fa {
   font-size: 50px;
   margin-right: 25px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .application-head {
   font-size: 22px;
   font-weight: 600;
-  transition: .3s;
+  transition: 0.3s;
 }
 /*=================================
   eligibility styling ends here
@@ -624,7 +625,31 @@ a.apply-btn {
 /*=================================
   footer styling starts here
 =================================*/
-
+footer .wrapper {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer-logo {
+  width: 214px;
+  height: 79px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+footer img {
+  height: 100%;
+  object-fit: cover;
+}
+.footer-links a {
+  font-family: "Poppins", sans-serif;
+  padding: 0 16px;
+  font-size: 16px;
+  color: #000;
+  border-right: 1.1px solid #000;
+}
+.footer-links li:nth-child(3) a{
+  border: none;
+}
 /*=================================
   footer styling ends here
 =================================*/
