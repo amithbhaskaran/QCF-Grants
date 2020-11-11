@@ -242,7 +242,7 @@ header img {
   color: #fff;
   margin-left: 30px;
   margin-right: 10px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .navigation a:hover {
   text-shadow: 0 0 10px #fff;
@@ -275,7 +275,7 @@ header img {
   cursor: pointer;
   display: none;
 }
-.line{
+.line {
   width: 100%;
   height: 4px;
   background-color: #fff;
@@ -292,16 +292,16 @@ header img {
 /*=================================
   banner styling starts here
 =================================*/
-.banner{
+.banner {
   position: relative;
   width: 100%;
   height: 465px;
   background: url(../images/1.jpg) no-repeat center/cover;
 }
-.banner-heading{  
+.banner-heading {
   font-size: 40px;
   text-transform: lowercase;
-  color: #FEFDFE;
+  color: #fefdfe;
   font-weight: 500;
   position: absolute;
   bottom: 70px;
@@ -314,10 +314,10 @@ header img {
 /*=================================
   community-program styling starts here
 =================================*/
-.community-program{
+.community-program {
   text-align: center;
 }
-.community-heading{
+.community-heading {
   font-size: 46px;
   text-transform: uppercase;
   font-weight: 700;
@@ -325,17 +325,46 @@ header img {
   letter-spacing: 2px;
   color: #010101;
 }
-.community-program .para{
+.community-program .para {
   text-indent: 100px;
-  margin-bottom: 60px;
+  margin-bottom: 70.5px;
 }
-.para{
+.para {
   font-size: 16.5px;
   color: #262626;
   font-weight: 400;
 }
-.navigation-links{
-  /* border: 2px solid #9FA24D; */
+.redirect-buttons {
+  height: 82px;
+  border: 2.3px solid #a9ad00;
+  border-left: transparent;
+  border-right: transparent;
+}
+.redirect-buttons .wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation-links a {
+  font-size: 17.5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #3d3d3d;
+  margin-right: 30px;
+}
+div.apply-btn {
+  margin-left: 20px;
+}
+.apply-btn a {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fbf6dc;
+  background-color: #f39c13;
+  padding: 10px 16px;
+  border-radius: 15px;
+  border: none;
 }
 /*=================================
   community-program styling ends here
