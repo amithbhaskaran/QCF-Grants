@@ -369,6 +369,72 @@ div.apply-btn {
 /*=================================
   community-program styling ends here
 =================================*/
+
+/*=================================
+  objectives styling starts here
+=================================*/
+.objectives {
+  padding: 25px 0 66px;
+  text-align: center;
+  border-bottom: 2px solid #A9AD00;
+}
+.objectives .wrapper{
+  max-width: 1070px;
+}
+.fourth-heading {
+  color: #a6ab01;
+  font-size: 38.3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 9px;
+}
+.objectives .para {
+  font-weight: 500;
+  opacity: .9;
+}
+.objectives-content {
+  margin: 44px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.objectives-contentBox {
+  width: 26.5%;
+  height: 564px;
+  background-color: #A9AD00;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.objectives-contentBox figure{
+  width: 134px;
+  height: 134px;
+  margin-top: 25px;
+}
+.objectives-contentBox img{
+  height: 100%;
+  border-radius: 50%;
+}
+.content{
+margin-top: 52.5px;
+}
+.fifth-heading{
+  color: #FAFAF6;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.obj-para{
+  font-size: 15.5px;
+  font-weight: 600;
+  color: #FAFAF6;
+  line-height: 25px;
+}
+/*=================================
+  objectives styling ends here
+=================================*/
 /*=================================
   main styling ends here
 =================================*/
