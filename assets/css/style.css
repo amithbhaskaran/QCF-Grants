@@ -635,6 +635,7 @@ footer .wrapper {
   height: 79px;
   margin-right: 10px;
   overflow: hidden;
+  cursor: pointer;
 }
 footer img {
   height: 100%;
