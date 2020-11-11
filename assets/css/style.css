@@ -376,9 +376,9 @@ div.apply-btn {
 .objectives {
   padding: 25px 0 66px;
   text-align: center;
-  border-bottom: 2px solid #A9AD00;
+  border-bottom: 2px solid #a9ad00;
 }
-.objectives .wrapper{
+.objectives .wrapper {
   max-width: 1070px;
 }
 .fourth-heading {
@@ -390,7 +390,7 @@ div.apply-btn {
 }
 .objectives .para {
   font-weight: 500;
-  opacity: .9;
+  opacity: 0.9;
 }
 .objectives-content {
   margin: 44px 0;
@@ -401,39 +401,79 @@ div.apply-btn {
 .objectives-contentBox {
   width: 26.5%;
   height: 564px;
-  background-color: #A9AD00;
+  background-color: #a9ad00;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 20px;
 }
-.objectives-contentBox figure{
+.objectives-contentBox figure {
   width: 134px;
   height: 134px;
   margin-top: 25px;
 }
-.objectives-contentBox img{
+.objectives-contentBox img {
   height: 100%;
   border-radius: 50%;
 }
-.content{
-margin-top: 52.5px;
+.content {
+  margin-top: 52.5px;
 }
-.fifth-heading{
-  color: #FAFAF6;
+.fifth-heading {
+  color: #fafaf6;
   font-size: 23px;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 15px;
 }
-.obj-para{
+.obj-para {
   font-size: 15.5px;
   font-weight: 600;
-  color: #FAFAF6;
+  color: #fafaf6;
   line-height: 25px;
+}
+.bold {
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 /*=================================
   objectives styling ends here
+=================================*/
+/*=================================
+  priority styling starts here
+=================================*/
+.priority {
+  padding: 33px 0 70px;
+  text-align: center;
+  border-bottom: 2px solid #a9ad00;
+}
+.priority .fourth-heading {
+  font-weight: 600;
+}
+.priority-content {
+  width: 78%;
+  margin: 35px auto 21px;
+  text-align: left;
+}
+.priority-content li {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.priority-content .fa {
+  width: 22px;
+  height: 22px;
+  font-size: 20px;
+  text-align: center;
+  border: 1.1px solid #a2a711;
+  color: #a2a711;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.prior-heading {
+  display: inline-block;
+}
+/*=================================
+  priority styling ends here
 =================================*/
 /*=================================
   main styling ends here
