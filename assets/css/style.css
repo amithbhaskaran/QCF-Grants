@@ -310,6 +310,36 @@ header img {
 /*=================================
   banner styling ends here
 =================================*/
+
+/*=================================
+  community-program styling starts here
+=================================*/
+.community-program{
+  text-align: center;
+}
+.community-heading{
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 46px 0 15px;
+  letter-spacing: 2px;
+  color: #010101;
+}
+.community-program .para{
+  text-indent: 100px;
+  margin-bottom: 60px;
+}
+.para{
+  font-size: 16.5px;
+  color: #262626;
+  font-weight: 400;
+}
+.navigation-links{
+  /* border: 2px solid #9FA24D; */
+}
+/*=================================
+  community-program styling ends here
+=================================*/
 /*=================================
   main styling ends here
 =================================*/
