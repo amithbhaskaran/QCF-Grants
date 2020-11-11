@@ -498,9 +498,9 @@ a.apply-btn {
   align-items: flex-start;
   justify-content: space-between;
 }
-.grant-content .para{
+.grant-content .para {
   font-weight: 500;
-  color: #4D4F4B;
+  color: #4d4f4b;
 }
 .grant-content li {
   width: 29.3%;
@@ -545,6 +545,77 @@ a.apply-btn {
 }
 /*=================================
   grants styling ends here
+=================================*/
+/*=================================
+  eligibility styling starts here
+=================================*/
+
+.eligibility {
+  padding-top: 20px;
+  text-align: center;
+}
+.eligibility .fourth-heading {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+.p-one {
+  margin-top: 25px;
+}
+.eligible-para {
+  margin-bottom: 33px;
+}
+.eligibility figure {
+  position: relative;
+  width: 100%;
+  height: 625px;
+}
+.eligibility img {
+  height: 100%;
+  object-fit: cover;
+}
+.download-forms {
+  text-align: left;
+  position: relative;
+  top: -221px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 405px;
+  width: 456px;
+  background-color: #fff;
+  border: 3px dashed #a6ac00;
+  padding: 28px 32px;
+}
+.download-forms ul {
+  margin-top: 28px;
+}
+.download-forms li {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+.download-heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.download-forms li:hover .application-head,
+.download-forms li:hover .fa {
+  color: #811c39;
+}
+.download-forms .fa {
+  font-size: 50px;
+  margin-right: 25px;
+  transition: .3s;
+}
+.application-head {
+  font-size: 22px;
+  font-weight: 600;
+  transition: .3s;
+}
+/*=================================
+  eligibility styling ends here
 =================================*/
 /*=================================
   main styling ends here
