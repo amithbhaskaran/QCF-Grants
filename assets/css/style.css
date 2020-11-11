@@ -356,7 +356,7 @@ header img {
 div.apply-btn {
   margin-left: 20px;
 }
-.apply-btn a {
+a.apply-btn {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -474,6 +474,77 @@ div.apply-btn {
 }
 /*=================================
   priority styling ends here
+=================================*/
+/*=================================
+  grants styling starts here
+=================================*/
+.grant {
+  padding: 24px 0 147px;
+  text-align: center;
+  border-bottom: 2px solid #a9ad00;
+}
+.black {
+  color: #000;
+}
+.grant .wrapper {
+  max-width: 1100px;
+}
+.grant .fourth-heading {
+  font-weight: 600;
+}
+.grant-content {
+  margin-top: 53px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.grant-content .para{
+  font-weight: 500;
+  color: #4D4F4B;
+}
+.grant-content li {
+  width: 29.3%;
+}
+.grant-content .fifth-heading {
+  padding: 17px 0;
+  font-size: 18.6px;
+  background-color: #e8f2d7;
+  margin-bottom: 7px;
+}
+.grant-content li:nth-child(2) .award {
+  padding: 20px 45px;
+}
+.amount,
+.award,
+.info,
+.apply {
+  display: block;
+  padding: 20px 25px;
+  background-color: #f9fcf6;
+  border-bottom: 2px solid #cbd9a6;
+}
+.amount {
+  height: 98px;
+}
+.award {
+  height: 104px;
+}
+.info {
+  height: 180px;
+}
+.apply {
+  position: relative;
+  height: 50px;
+  border-bottom: none;
+}
+.apply .apply-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*=================================
+  grants styling ends here
 =================================*/
 /*=================================
   main styling ends here
