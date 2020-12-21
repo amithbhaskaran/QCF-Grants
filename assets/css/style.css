@@ -115,7 +115,6 @@ section {
 /* Force scrollbar */
 html {
   overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 
 /* Align radios and text inputs with their label */
